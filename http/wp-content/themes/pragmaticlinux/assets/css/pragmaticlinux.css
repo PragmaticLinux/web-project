@@ -1,0 +1,91 @@
+.navbar-default{
+    border-bottom: 3px solid  #1F9AB6;
+    background-color:#fff;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.btn-primary{
+    background-color:#1F9AB6;
+    border:none;
+    border-radius:20px;
+    color:#fff;
+    font-weight:600;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:#000000;
+    font-weight:600;
+    font-style: bold;
+}
+
+body{
+    background-color:#fff;
+}
+
+/*
+    Menu Navigation Header
+*/
+#menu-navigation{
+    margin-top: 5px;
+}
+#menu-navigation ul li {
+    padding:10px;
+    margin:0;
+    list-style: none;
+    background:#ffffff;
+}
+
+#menu-navigation ul li a:hover {
+    color:#1F9AB6;
+}
+/*#menu-navigation ul li:hover ul li:hover{
+    color:#1F9AB6;
+}*/
+#menu-navigation ul li ul li a{
+    text-decoration: none;
+    color:#000000;
+    font-weight:600;
+    font-style: bold;
+}
+#menu-navigation ul li ul li {
+    padding-left:25px;
+    padding-bottom:13px;
+}
+
+
+
+
+
+
+
+/*
+#menu-navigation ul a{
+    color:#000000;
+    font-weight:600;
+    font-style: bold;
+}*/
+/*#menu-navigation ul li {
+    padding-bottom: 10px;
+}*/
+
+body{
+    background:#000000;
+}
+
+#menu-navigation ul li:hover ul{
+    display:block;
+    margin:0;
+    margin-top:10px;
+    border-top:6px solid #1F9AB6;
+    padding:0;
+    position: absolute;
+}
+
+
+
+
+#menu-navigation ul ul{
+    display:none;
+    width:200px;
+}
