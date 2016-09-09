@@ -9,10 +9,10 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" style="height:85px;">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-2 col-md-offset-1">
+                    <div class="col-md-3 col-md-offset-1 logo">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -25,7 +25,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-offset-1 col-md-8">
+                    <div class="col-md-8">
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" >
 

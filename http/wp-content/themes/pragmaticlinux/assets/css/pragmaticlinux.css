@@ -5,6 +5,19 @@
 .navbar{
     margin-bottom: 0;
 }
+.logo{
+	margin-top:6px;
+}
+
+.container{
+	margin-top:7px;
+}
+
+
+
+/*
+	Primary Button and Download Button
+*/
 .btn-primary{
     background-color:#1F9AB6;
     border:none;
@@ -27,11 +40,9 @@ body{
     Menu Navigation Header
 */
 #menu-navigation{
-    margin-top: 5px;
+    margin-top: 14px;
 }
 #menu-navigation ul li {
-    padding:10px;
-    margin:0;
     list-style: none;
     background:#ffffff;
 }
@@ -47,10 +58,6 @@ body{
     color:#000000;
     font-weight:600;
     font-style: bold;
-}
-#menu-navigation ul li ul li {
-    padding-left:25px;
-    padding-bottom:13px;
 }
 
 
@@ -75,10 +82,9 @@ body{
 
 #menu-navigation ul li:hover ul{
     display:block;
-    margin:0;
-    margin-top:10px;
+	margin:0;
     border-top:6px solid #1F9AB6;
-    padding:0;
+    padding-bottom:20px;
     position: absolute;
 }
 
