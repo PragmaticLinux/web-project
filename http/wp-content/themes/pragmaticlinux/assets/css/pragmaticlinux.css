@@ -6,17 +6,17 @@
     margin-bottom: 0;
 }
 .logo{
-	margin-top:6px;
+    margin-top:6px;
 }
 
 .container{
-	margin-top:7px;
+    margin-top:7px;
 }
 
 
 
 /*
-	Primary Button and Download Button
+        Primary Button and Download Button
 */
 .btn-primary{
     background-color:#1F9AB6;
@@ -36,9 +36,23 @@ body{
     background-color:#fff;
 }
 
+
+
+.front-image-pragmatic{
+    background-color:#000000;
+}
+
+
+
 /*
     Menu Navigation Header
+    Structure: 
+    0.Main-navigation - Header
+    1.Sub-Menu-Navigation 
 */
+
+
+/* 1. Sub-Menu Design */
 #menu-navigation{
     margin-top: 14px;
 }
@@ -50,9 +64,28 @@ body{
 #menu-navigation ul li a:hover {
     color:#1F9AB6;
 }
-/*#menu-navigation ul li:hover ul li:hover{
-    color:#1F9AB6;
-}*/
+
+
+
+
+
+
+/* 1. Sub-Menu Design */
+
+#menu-navigation ul ul{
+    margin:0;
+    padding:20px 0px;
+    display:none;
+    width:200px;
+}
+
+#menu-navigation ul ul li:first-child{
+    border-top:4px solid #1F9AB6;
+
+}
+#menu-navigation ul ul li{
+    padding:10px 20px;
+}
 #menu-navigation ul li ul li a{
     text-decoration: none;
     color:#000000;
@@ -60,38 +93,17 @@ body{
     font-style: bold;
 }
 
-
-
-
-
-
-
-/*
-#menu-navigation ul a{
-    color:#000000;
-    font-weight:600;
-    font-style: bold;
-}*/
-/*#menu-navigation ul li {
-    padding-bottom: 10px;
-}*/
-
-body{
-    background:#000000;
-}
-
 #menu-navigation ul li:hover ul{
     display:block;
-	margin:0;
-    border-top:6px solid #1F9AB6;
+    margin:0;
     padding-bottom:20px;
     position: absolute;
 }
 
 
 
-
-#menu-navigation ul ul{
-    display:none;
-    width:200px;
+/* Block content Left block and Right Block */
+.pharagraph{
+    width:50%;
+    margin:auto auto;
 }

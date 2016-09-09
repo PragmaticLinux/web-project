@@ -12,7 +12,7 @@
         <nav class="navbar navbar-default" style="height:85px;">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3 col-md-offset-1 logo">
+                    <div class="col-md-4">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -21,13 +21,13 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="#"><img src="http://pragmaticlinux.org/AlbanMulaki/PragmaticLinux/logo/PragramaticLinuxLogoInvert.png" class="img-responsive" /></a>
+                            <a href="#"><img src="http://pragmaticlinux.org/AlbanMulaki/PragmaticLinux/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " style='max-height:85px;margin-left:10%;' /></a>
                         </div>
 
                     </div>
                     <div class="col-md-8">
                         <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse" >
+                        <div class="collapse navbar-collapse " style="float: right;  margin-right: 5%;" >
 
                             <?php
                             $downloadButton = '<li><a href="#" style="color:#fff; padding:8px 10px; margin-top:5px;" class="btn btn-primary">DOWNLOAD</a></li> </ul>';
