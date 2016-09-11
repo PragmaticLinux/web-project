@@ -6,6 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php wp_head(); ?>
+        <script 
+        src="https://use.fontawesome.com/20bd2b85aa.js"></script>
     </head>
 
     <body>
@@ -21,7 +23,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="#"><img src="http://pragmaticlinux.org/AlbanMulaki/PragmaticLinux/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " style='max-height:85px;margin-left:10%;' /></a>
+                            <a href="<?php echo home_url(); ?>"><img src="http://pragmaticlinux.org/AlbanMulaki/PragmaticLinux/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " style='max-height:85px;margin-left:10%;' /></a>
                         </div>
 
                     </div>
@@ -30,7 +32,7 @@
                         <div class="collapse navbar-collapse " style="float: right;  margin-right: 5%;" >
 
                             <?php
-                            $downloadButton = '<li><a href="#" style="color:#fff; padding:8px 10px; margin-top:5px;" class="btn btn-primary">DOWNLOAD</a></li> </ul>';
+                            $downloadButton = '<li class="download-button"><a href="#" class="btn btn-primary">DOWNLOAD</a></li> </ul>';
                             $menu = wp_nav_menu(
                                     array('theme_location' => 'primary',
                                         'menu_class' => 'nav navbar-nav',

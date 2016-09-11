@@ -14,36 +14,6 @@
 }
 
 
-
-/*
-        Primary Button and Download Button
-*/
-.btn-primary{
-    background-color:#1F9AB6;
-    border:none;
-    border-radius:20px;
-    color:#fff;
-    font-weight:600;
-}
-
-.navbar-default .navbar-nav>li>a{
-    color:#000000;
-    font-weight:600;
-    font-style: bold;
-}
-
-body{
-    background-color:#fff;
-}
-
-
-
-.front-image-pragmatic{
-    background-color:#000000;
-}
-
-
-
 /*
     Menu Navigation Header
     Structure: 
@@ -59,6 +29,7 @@ body{
 #menu-navigation ul li {
     list-style: none;
     background:#ffffff;
+    color:#333;
 }
 
 #menu-navigation ul li a:hover {
@@ -88,7 +59,7 @@ body{
 }
 #menu-navigation ul li ul li a{
     text-decoration: none;
-    color:#000000;
+    color:#333;
     font-weight:600;
     font-style: bold;
 }
@@ -102,8 +73,135 @@ body{
 
 
 
+/*
+        Primary Button and Download Button
+*/
+.btn-primary{
+    background-color:#1F9AB6;
+    border:none;
+    border-radius:20px;
+    color:#fff;
+    font-weight:600;
+}
+.download-button:hover a{
+    color:#1F9AB6;
+}
+
+.btn-primary onhover{
+    display:none;
+}
+.btn-primary:hover show{
+    display: none;
+}
+.btn-primary:hover onhover{
+    display: inherit;
+}
+.btn-primary:hover{
+    border:  2px solid #1F9AB6 ;
+    color:#1F9AB6;
+    background:#fff;
+    transition: background-color 0.5s ease-in,  border-color 0.7s;
+    -webkit-transition:  background-color 0.5s ease-in,  border-color 0.7s;
+    -o-transition: background-color 0.5s ease-in,  border-color 0.7s;
+    -moz-transition:  background-color 0.5s ease-in,  border-color 0.7s;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color:#000000;
+    font-weight:600;
+    font-style: bold;
+}
+.navbar-nav>li:last-child>a{
+    color:#fff;
+    margin-top:7px;
+    padding:7px 15px;
+}
+body{
+    background-color:#fff;
+    color:#666;
+}
+
+
+
+.front-image-pragmatic{
+    background-color:#000000;
+}
+
+
+
+
 /* Block content Left block and Right Block */
 .pharagraph{
-    width:50%;
+    width:65%;
     margin:auto auto;
+    padding-top:5px;
+    padding-bottom:25px;
 }
+.right-block{
+    background:#1ba6c4;
+    color:#fff;
+    border-radius:50px 0 0 0;
+}
+.right-block h2,
+.left-block h2{
+    padding-top:10px;
+}
+
+.left-block{
+    color:#000;
+    border-radius:0 50px 0 0;
+    background-color:#eeeeee;
+}
+.blocks{
+    background-color:#000000;
+}
+
+.header-block{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color:#666666;
+    font-weight: 600;
+}
+
+
+/**
+  Feature 
+**/
+.icon-feature{
+    color:#2072b5; 
+    border:8px #2072b5 solid; 
+    border-radius:50%; 
+    padding:15px;
+}
+.feature-list{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.feature-list h2{
+    font-weight: 600; 
+    color:#333;
+}
+
+
+/**
+  Footer 
+**/
+
+.footer{
+    padding:40px;
+    background:#2d2d2d;
+    color:#fff;
+    font-size:0.9em;
+}
+
+/**
+        Title of pages Tempalte
+**/
+.header-page{
+    background:#1F9AB6;
+    font-weight: 700;
+    color:#fff;
+    padding-top:15px;
+    padding-bottom:35px;
+}
+
