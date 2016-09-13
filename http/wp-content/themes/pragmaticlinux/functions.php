@@ -61,6 +61,24 @@ function partner_post() {
 add_action('init', 'partner_post');
 
 /**
+ * Create Team Post Type
+ */
+function team_post() {
+    register_post_type('team', array(
+        'labels' => array(
+            'name' => __('Team'),
+            'singular_name' => __('Team')
+        ),
+        'public' => true,
+        'featured_image' => "thumbnail",
+        'supports' => array('title', 'editor', 'thumbnail')
+            )
+    );
+}
+
+add_action('init', 'team_post');
+
+/**
  * Create Video Type
  */
 function video_post() {

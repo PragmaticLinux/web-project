@@ -57,7 +57,7 @@ get_template_directory_uri();
                 $the_query->the_post();
                 ?>
                 <div class="col-md-3 text-center feature-list">
-                    <i class="fa fa-edit fa-5x icon-feature"></i>
+                    <?php the_post_thumbnail('thumbnail');?>
                     <h2 style="font-weight: 600;"><?php the_title(); ?></h2>
                     <?php the_excerpt(); ?>
                 </div>

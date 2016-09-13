@@ -66,6 +66,7 @@
 
 #menu-navigation ul li:hover ul{
     display:block;
+    z-index:1;
     margin:0;
     padding-bottom:20px;
     position: absolute;
@@ -128,8 +129,6 @@ body{
 }
 
 
-
-
 /* Block content Left block and Right Block */
 .pharagraph{
     width:65%;
@@ -138,6 +137,7 @@ body{
     padding-bottom:25px;
 }
 .right-block{
+    min-height: 350px;
     background:#1ba6c4;
     color:#fff;
     border-radius:50px 0 0 0;
@@ -148,6 +148,7 @@ body{
 }
 
 .left-block{
+    min-height: 350px;
     color:#000;
     border-radius:0 50px 0 0;
     background-color:#eeeeee;
@@ -205,3 +206,45 @@ body{
     padding-bottom:35px;
 }
 
+
+
+/**
+    History logs 
+**/
+
+.history-logs{
+    list-style: none;
+    padding-left:12px;
+}
+.history-logs li{
+    padding:8px;
+    display:flex;
+}
+.history-logs li div:nth-child(2){
+    color:#1F9AB6;
+    padding-left:5px;
+    margin-top:3px;
+}
+
+.history-logs-date{
+    display:inline-block;
+    min-width: 50px;
+    font-size:1.4em;
+    font-weight:bold;
+    margin-top:-4px;
+}
+.history-logs-title{
+    padding-left:8px;
+    font-size:1.0em;
+}
+
+/**
+ Blog List
+**/
+.list-blog a{
+    color:#333;
+    
+}
+.list-blog a:hover{
+    text-decoration: none;
+}
