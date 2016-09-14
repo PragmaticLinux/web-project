@@ -1,5 +1,5 @@
 .navbar-default{
-    border-bottom: 3px solid  #1F9AB6;
+    border-bottom: 3px solid  #1ba5c3;
     background-color:#fff;
 }
 .navbar{
@@ -33,7 +33,7 @@
 }
 
 #menu-navigation ul li a:hover {
-    color:#1F9AB6;
+    color:#1ba5c3;
 }
 
 
@@ -51,7 +51,7 @@
 }
 
 #menu-navigation ul ul li:first-child{
-    border-top:4px solid #1F9AB6;
+    border-top:4px solid #1ba5c3;
 
 }
 #menu-navigation ul ul li{
@@ -78,14 +78,14 @@
         Primary Button and Download Button
 */
 .btn-primary{
-    background-color:#1F9AB6;
+    background-color:#1ba5c3;
     border:none;
     border-radius:20px;
     color:#fff;
     font-weight:600;
 }
 .download-button:hover a{
-    color:#1F9AB6;
+    color:#1ba5c3;
 }
 
 .btn-primary onhover{
@@ -98,8 +98,8 @@
     display: inherit;
 }
 .btn-primary:hover{
-    border:  2px solid #1F9AB6 ;
-    color:#1F9AB6;
+    border:  2px solid #1ba5c3 ;
+    color:#1ba5c3;
     background:#fff;
     transition: background-color 0.5s ease-in,  border-color 0.7s;
     -webkit-transition:  background-color 0.5s ease-in,  border-color 0.7s;
@@ -199,7 +199,7 @@ body{
         Title of pages Tempalte
 **/
 .header-page{
-    background:#1F9AB6;
+    background:#1ba5c3;
     font-weight: 700;
     color:#fff;
     padding-top:15px;
@@ -221,7 +221,7 @@ body{
     display:flex;
 }
 .history-logs li div:nth-child(2){
-    color:#1F9AB6;
+    color:#1ba5c3;
     padding-left:5px;
     margin-top:3px;
 }
@@ -247,4 +247,47 @@ body{
 }
 .list-blog a:hover{
     text-decoration: none;
+}
+
+
+
+
+.forum-list > div{
+    border-left:4px solid #1ba5c3;
+    padding-left:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.forum-list div:first-child{
+    border:none;    
+}
+.forum-list div:first-child:hover{
+    background:none;
+}
+.forum-list div:hover{
+    background:#1ba5c3;
+}
+.forum-list div:hover a,
+.forum-list div:hover p{
+    color:#fff;
+    text-decoration:none;
+}
+.forum-list div p{
+    color:#666;
+}
+.forum-list div span{
+    margin-top:20px;
+}
+
+
+.forum-notify-box{
+    padding:15px;
+    padding-top:8px;
+    padding-left:30px;
+    border-top: 2px solid #ffd63f;
+    border-bottom: 2px solid #ffd63f;
+}
+.forum-notify-box a{
+    color: inherit;
+    text-decoration:none;
 }

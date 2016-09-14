@@ -57,7 +57,7 @@ get_template_directory_uri();
                 $the_query->the_post();
                 ?>
                 <div class="col-md-3 text-center feature-list">
-                    <?php the_post_thumbnail('thumbnail');?>
+                    <?php the_post_thumbnail('thumbnail'); ?>
                     <h2 style="font-weight: 600;"><?php the_title(); ?></h2>
                     <?php the_excerpt(); ?>
                 </div>
