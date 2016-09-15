@@ -1,3 +1,4 @@
+
 body {
 	background: #fff;
 	color: #333;
@@ -884,7 +885,7 @@ blockquote cite span.highlight {
 .red_alert a:link,
 .red_alert a:visited,
 .red_alert a:hover,
-.red_alert  a:active  {
+.red_alert  a:active {
 	color: #A5161A;
 }
 
@@ -1072,9 +1073,9 @@ div.error ul {
 }
 
 .post .post_author {
-	border-bottom: 1px solid #ccc;
-	border-top: 2px solid #ccc;
 	background: #f5f5f5;
+	border-bottom: 1px solid #ccc;
+	border-top: 2px solid #1ba5c3;
 	padding: 5px;
 	overflow: hidden;
 }
@@ -1513,7 +1514,9 @@ a.button.report_user_button span {
 @media print {
 	.jGrowl {
 		display: none;
-	}
+}
+
+
 }
 
 /** jGrowl End **/
