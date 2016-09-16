@@ -12,7 +12,11 @@
 .container{
     margin-top:7px;
 }
-
+/*
+.active{
+    background-color:#1ba5c3;
+    border:1px solid #1ba5c3;
+}*/
 
 /*
     Menu Navigation Header
@@ -226,8 +230,8 @@ body{
     background:#1ba5c3;
     font-weight: 700;
     color:#fff;
-    padding-top:15px;
-    padding-bottom:35px;
+    padding-top:8px;
+    padding-bottom:20px;
 }
 
 
