@@ -1,3 +1,5 @@
 [user]
 	email = amulaki@pragmaticlinux.org
 	name = Alban Mulaki
+[core]
+	editor = nano

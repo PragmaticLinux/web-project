@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="row header-page text-center">
-    <h1>Screenshoot</h1> 
+    <h1>History Release</h1> 
 </div>
 <div class="row">
     <div class="container"><br><br>
@@ -18,7 +18,7 @@
                     <li>
                         <div class="history-logs-date"><?php echo $year; ?> </div>
                         <div class="fa fa-circle fa-lg"></div>
-                        <div class="history-logs-title"><?php the_title(); ?></div>
+                        <div class="history-logs-title"><?php the_excerpt(); ?></div>
                     </li>
                     <?php
                 }
