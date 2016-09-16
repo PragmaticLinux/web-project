@@ -7,7 +7,7 @@
     <div class="container">
         <?php
         $currentVideo = get_the_ID();
-        $args = array('post_type' => 'video', 'order' => "DESC");
+        $args = array('post_type' => 'video', 'order' => "ASC");
         $video = new WP_Query($args);
         ?>
         <div class="col-md-3">
