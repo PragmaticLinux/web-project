@@ -85,8 +85,9 @@ get_template_directory_uri();
                 while ($the_query->have_posts()) {
                     $the_query->the_post();
                     ?>
-                    <div class="col-md-2" style="padding-top:15px; padding-bottom: 15px;">
-                        <?php the_post_thumbnail('thumbnail'); ?>
+                    <div class="col-md-2 text-center" style="padding-top:15px; padding-bottom: 15px;">
+                        <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-responsive" style=" position: relative; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); margin-left:auto; margin-right:auto;" >
+
                     </div>
                     <?php
                 }
