@@ -135,6 +135,24 @@ body{
 }
 
 
+/**
+    Team Member
+**/
+.pragmatic-hr{
+    border-top: 1px solid #1ba5c3;
+}
+
+.team td:first-child{
+    width:110px;
+    text-align:right;
+    font-size:0.9em;
+    font-weight:bold;
+}
+
+.team td:nth-child(2){
+    font-size:0.9em;
+
+}
 /* Block content Left block and Right Block */
 .pharagraph{
     width:65%;
@@ -258,6 +276,9 @@ body{
 
 
 
+/**
+   Forum Category & Thread List
+**/
 .forum-list > div{
     border-left:4px solid #1ba5c3;
     padding-left:20px;
@@ -308,7 +329,11 @@ body{
     background:none;
 }
 
+/** 
 
+General Changes Forums
+
+**/
 .panel-primary{
 
     border: 1px solid #ccc;
@@ -329,3 +354,5 @@ body{
     padding-left:30px;
     padding-right:30px;
 }
+
+
