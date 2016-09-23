@@ -13,7 +13,7 @@
     <body>
         <nav class="navbar navbar-default" style="height:85px;">
             <div class="container-fluid">
-                <div class="row">
+                <div class="col-md-12">
                     <div class="col-md-4">
                         <!-- Brand and toggle get grouped for better mobile display -->
                         <div class="navbar-header">
