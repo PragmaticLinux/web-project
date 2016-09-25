@@ -49,6 +49,7 @@ get_template_directory_uri();
         <?php
         // Get Feature lists
         $args = array('posts_per_page' => 4, 'post_type' => 'features');
+        $latestFeatureLink = "";
         $the_query = new WP_Query($args);
         if ($the_query->have_posts()) {
             while ($the_query->have_posts()) {
@@ -56,7 +57,7 @@ get_template_directory_uri();
                 ?>
                 <div class="col-md-3 text-center feature-list">
                     <?php the_post_thumbnail('thumbnail'); ?>
-                    <h2 style="font-weight: 600;"><?php the_title(); ?></h2>
+                    <a href="<?php $latestFeatureLink = the_permalink(); ?>"><h2 style="font-weight: 600;"><?php the_title(); ?></h2></a>
                     <?php the_excerpt(); ?>
                 </div>
                 <?php
@@ -65,7 +66,7 @@ get_template_directory_uri();
         ?>
 
         <div class="col-md-12 text-center" style="padding-bottom:40px;">
-            <a href="/features" class="btn btn-primary" style="margin-top:20px;" >
+            <a href="/features/web-development/" class="btn btn-primary" style="margin-top:20px;" >
                 <show class="normal" >MORE FEATURES </show>
                 <onhover class="onhover">MORE FEATURES  ></onhover>
             </a>
@@ -73,22 +74,22 @@ get_template_directory_uri();
     </div>
 </div>
 <div class="col-md-6 nopadding screenshoot-index">
-    <img class="img-responsive" style="height: 430px;  width: 100%;" src="http://dev.pragmaticlinux:8080/wp-content/themes/pragmaticlinux/assets/img/normalUser.png">
+    <img class="img-responsive" style="height: 430px;  width: 100%;" src="<?php echo get_template_directory_uri(); ?>/assets/img/normalUser.png">
 </div>
 <div class="col-md-6 nopadding screenshoot-index">
-    <img class="img-responsive" style="height: 430px; width: 100%;"  src="http://dev.pragmaticlinux:8080/wp-content/themes/pragmaticlinux/assets/img/normalUserSkype.png">  
+    <img class="img-responsive" style="height: 430px; width: 100%;"  src="<?php echo get_template_directory_uri(); ?>/assets/img/normalUserSkype.png">  
 </div>
 <div class="col-md-3 nopadding screenshoot-index"> 
-    <img class="img-responsive" style="height: 230px; width: 100%; "  src="http://dev.pragmaticlinux:8080/wp-content/themes/pragmaticlinux/assets/img/dualScreen.png">        
+    <img class="img-responsive" style="height: 230px; width: 100%; "  src="<?php echo get_template_directory_uri(); ?>/assets/img/dualScreen.png">        
 </div>
 <div class="col-md-3 nopadding screenshoot-index">
-    <img class="img-responsive" style="height: 230px; width: 100%; "  src="http://dev.pragmaticlinux:8080/wp-content/themes/pragmaticlinux/assets/img/desktop.png">        
+    <img class="img-responsive" style="height: 230px; width: 100%; "  src="<?php echo get_template_directory_uri(); ?>/assets/img/desktop.png">        
 </div>
 <div class="col-md-3 nopadding screenshoot-index">
-    <img class="img-responsive" style="height: 230px; width: 100%; "  src="http://dev.pragmaticlinux:8080/wp-content/themes/pragmaticlinux/assets/img/BootScreen.png">        
+    <img class="img-responsive" style="height: 230px; width: 100%; "  src="<?php echo get_template_directory_uri(); ?>/assets/img/BootScreen.png">        
 </div>
 <div class="col-md-3 nopadding screenshoot-index">
-    <img class="img-responsive" style="height: 230px; width: 100%; "   src="http://dev.pragmaticlinux:8080/wp-content/themes/pragmaticlinux/assets/img/FileManager.png">        
+    <img class="img-responsive" style="height: 230px; width: 100%; "   src="<?php echo get_template_directory_uri(); ?>/assets/img/FileManager.png">        
 </div>
 <div class="col-md-12 text-center">
     <h2 class="header-block">Who is using Pragmatic Linux Server & Pragmatic Linux</h2>
@@ -103,8 +104,8 @@ get_template_directory_uri();
             while ($the_query->have_posts()) {
                 $the_query->the_post();
                 ?>
-                <div class="col-md-2 text-center" style="padding-top:15px; padding-bottom: 15px;">
-                    <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-responsive" style=" position: relative; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); margin-left:auto; margin-right:auto;" >
+                <div class="col-md-2 text-center" style="padding-top:15px; padding-bottom: 15px; ">
+                    <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-responsive" >
 
                 </div>
                 <?php

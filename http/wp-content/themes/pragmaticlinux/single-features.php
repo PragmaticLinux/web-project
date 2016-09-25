@@ -17,8 +17,8 @@
                 if ($odd == false) {
                     $odd = true;
                     ?>
-                    <div class="col-md-12 feature-list">
-                        <div class="col-md-2 text-center"><?php the_post_thumbnail('thumbnail'); ?></div>
+                    <div class="col-md-12 feature-list" >
+                        <div class="col-md-2 text-center" style="padding-top: 20px;"><img src="<?php the_post_thumbnail_url('thumbnail'); ?>" ></div>
                         <div class="col-md-9">
                             <h2><?php the_title(); ?></h2>
                             <?php echo the_content(); ?>
@@ -33,7 +33,7 @@
                             <h2><?php the_title(); ?></h2>
                             <?php echo the_content(); ?>
                         </div>
-                        <div class="col-md-2 text-center"><?php the_post_thumbnail('thumbnail'); ?></div>
+                        <div class="col-md-2 text-center" style="padding-top: 20px;"><?php the_post_thumbnail('thumbnail'); ?></div>
 
                     </div> 
 

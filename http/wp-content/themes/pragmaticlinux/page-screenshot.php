@@ -5,7 +5,7 @@
 </div>
 <div class="row">
     <div class="container">
-        <?php echo photo_gallery(4); ?>
+        <?php echo photo_gallery(5); ?>
     </div>
 </div>
 <br><br>
