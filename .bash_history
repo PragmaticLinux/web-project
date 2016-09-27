@@ -244,3 +244,48 @@ nano ../../index.php
 nano ../../header.php 
 nano ../../index.php
 nano ../../index.php
+ls
+cd http
+ls
+cd ..
+git status
+git status | less
+git add .
+git commit -am "Fixe bugs,added screenshoot,feature content...  #10  #15"
+git push origin master
+ls
+cd htp
+ls
+cd http/
+ls
+cd wiki
+ls
+cd images
+ls
+chmod -R 777 archive/
+chmod -R 777 deleted/
+chmod -R 777 temp/
+chmod -R 777 thumb/
+ls
+sudo nano /etc/php56/php.ini 
+sudo nano /etc/default/grub 
+grub-mkconfig -o /boot/grub/grub.cfg
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo reboot
+sudo nano /boot/grub/grub.cfg
+hwinfo --framebuffer
+sudo hwinfo
+sudo pacman -S hwinfo
+hwinfo --framebuffer
+hwinfo --framebuffer
+sudo nano /boot/grub/grub.cfg
+sudo nano /etc/default/grub
+sudo update-grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo reboot
+sudo nano /etc/default/grub 
+sudo update-initramfs -u
+mkinitcpio -p linux
+sudo mkinitcpio -p linux
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sudo reboot
