@@ -409,6 +409,20 @@ General Changes Forums
     transition: all 0.5s ease-out;
 }
 
+.get-help,
+.get-help a{
+    color:#333;
+}
+.get-help h4{
+    font-weight: bold;
+}
+.get-help a:hover{
+    text-decoration: none;
+}
+.get-help a p{
+    color: #666;
+}
+
 /**
 
 **** WIKI ***
