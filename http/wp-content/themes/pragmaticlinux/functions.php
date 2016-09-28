@@ -8,8 +8,8 @@ function pragmaticlinux_script_enqueue() {
     $baseDir = get_template_directory_uri() . "/assets/";
     wp_enqueue_style('bootstrap-style', $baseDir . "css/bootstrap.min.css", array(), "1.0.0", "all");
     wp_enqueue_style('pragmaticlinux-style', $baseDir . "css/pragmaticlinux.css", array(), "1.0.0", "all");
-    wp_enqueue_script('jquery-js', $baseDir . "js/jquery.1.12.4.min.js", array(), "1.0.0", true);
-    wp_enqueue_script('bootstrap-js', $baseDir . "js/bootstrap.min.js", array(), "1.0.0", true);
+    wp_enqueue_script('jquery-js', $baseDir . "js/jquery.1.12.4.min.js", array(), 1.0, false);
+    wp_enqueue_script('bootstrap-js', $baseDir . "js/bootstrap.min.js", array(), NULL, false);
 }
 
 add_action('wp_enqueue_scripts', 'pragmaticlinux_script_enqueue');

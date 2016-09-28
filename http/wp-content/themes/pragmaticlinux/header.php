@@ -32,7 +32,7 @@
                         <div class="collapse navbar-collapse " style="float: right;  margin-right: 5%;" >
 
                             <?php
-                            $downloadButton = '<li class="download-button"><a href="#" class="btn btn-primary">DOWNLOAD</a></li> </ul>';
+                            $downloadButton = '<li class="download-button"><a href="'.  get_home_url().'/download" class="btn btn-primary">DOWNLOAD</a></li> </ul>';
                             $menu = wp_nav_menu(
                                     array('theme_location' => 'primary',
                                         'menu_class' => 'nav navbar-nav',

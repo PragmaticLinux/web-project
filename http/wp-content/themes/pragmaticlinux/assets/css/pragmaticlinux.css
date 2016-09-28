@@ -386,6 +386,28 @@ General Changes Forums
     padding-right:30px;
 }
 
+.download-links{
+    color:#666;
+    border:  2px solid #fff ;
+    height: 300px;
+    padding:20px;
+}
+.download-links a{
+    color:#1ba5c3;
+}
+.download-links a:hover{
+    text-decoration: none;
+}
+.download-links:hover{
+    background-color:#fff;
+    border-radius:20px;
+    color:#1ba5c3;
+    border: 2px solid #1ba5c3 ;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
 
 /**
 
@@ -398,6 +420,4 @@ pre{
     border-radius:0px;
     padding: 1em;
 }
-a:visited{
-    color:#0072BC;
-}
+
