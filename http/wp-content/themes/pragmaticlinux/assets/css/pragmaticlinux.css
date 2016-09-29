@@ -423,6 +423,17 @@ General Changes Forums
     color: #666;
 }
 
+.faqs-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+.faqs-title a{
+    color:#333;
+}
+.faqs-title a:hover{
+    text-decoration: none;
+}
+
 /**
 
 **** WIKI ***

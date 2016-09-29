@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="row header-page text-center">
-    <h1>Team</h1> 
+    <h1>Get Help</h1> 
 </div>
 <div class="row">
     <div class="container">

@@ -12,7 +12,7 @@
 
         <div class="col-md-12">
             <div class="text-center" style="padding-top:22px;padding-bottom:22px;">
-                <a href="<?php echo get_home_url();?>/?smd_process_download=1&download_id=185" class="btn btn-primary btn-lg text-uppercase" style="border-radius: 0px;">Download</a>
+                <a href="<?php echo get_home_url();?>/?smd_process_download=1&download_id=185" class="btn btn-primary btn-lg text-uppercase" >Download</a>
             </div>
             <p>
                 PLS offers minimal usage of the Memory, CPU and Disk space, and is designed for helping System Administrators in building network infrastructures. 

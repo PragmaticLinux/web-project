@@ -12,7 +12,7 @@
 
         <div class="col-md-12">
             <div class="text-center" style="padding-top:22px;padding-bottom:22px;">
-                <a href="<?php echo get_home_url(); ?>/?smd_process_download=1&download_id=186" class="btn btn-primary btn-lg text-uppercase" style="border-radius: 0px;">Download <i class="fa fa-cloud-download"></i> </a>
+                <a href="<?php echo get_home_url(); ?>/?smd_process_download=1&download_id=186" class="btn btn-primary btn-lg text-uppercase">Download <i class="fa fa-cloud-download"></i> </a>
             </div>
         </div>
         <div class="col-md-12">
@@ -40,15 +40,21 @@
                                     <th>Date Published:</th>
                                 </tr>
                                 <tr>
+                                    <td><a href="<?php echo get_home_url(); ?>/?smd_process_download=1&download_id=186"> <i class="fa fa-file-code-o"></i>  PragmaticLinux-v0.6-x86_64.iso</a></td>
+                                    <td>2.8 GB</td>
+                                    <td><i class="fa fa-code-fork"></i> v0.6</td>
+                                    <td><i class="fa fa-clock-o"></i> 18.07.2016</td>
+                                </tr>
+                                <tr>
                                     <td><a href="<?php echo get_home_url(); ?>/?smd_process_download=1&download_id=188"> <i class="fa fa-file-code-o"></i>  PragmaticLinux_201510_BETA(v0.5).rar</a></td>
                                     <td>2.2 GB</td>
-                                    <td><i class="fa fa-code-fork"></i> 0.5v (Beta)</td>
+                                    <td><i class="fa fa-code-fork"></i> v0.5 (Beta)</td>
                                     <td><i class="fa fa-clock-o"></i> 16.01.2016</td>
                                 </tr>
                                 <tr>
                                     <td><a href="<?php echo get_home_url(); ?>/?smd_process_download=1&download_id=187"> <i class="fa fa-file-code-o"></i> PragmaticLinux-Alpha0-4v.vmdk.7z</a></td>
                                     <td>1.6 GB</td>
-                                    <td><i class="fa fa-code-fork"></i> 0.4v (Alpha)</td>
+                                    <td><i class="fa fa-code-fork"></i> v0.4 (Alpha)</td>
                                     <td><i class="fa fa-clock-o"></i> 15.06.2015</td>
                                 </tr>
                             </table> 
