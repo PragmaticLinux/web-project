@@ -434,10 +434,30 @@ General Changes Forums
     text-decoration: none;
 }
 
+hr{
+    border-top:1px solid #666;
+}
+
 /**
+============================
+Social Share and yotuube channel
+============================
+**/
+.youtube-link{
+    color:#cc181e;
+}
+.youtube-link:hover{
+    color:#CB0200;
+}
 
+.facebook-link{
+    color:#365899;
+}
+
+/**
+ ===========================
 **** WIKI ***
-
+============================
 **/
 pre{
     background:#ebf1f5;

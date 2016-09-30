@@ -96,3 +96,18 @@ function video_post() {
 
 add_action('init', 'video_post');
 add_theme_support('post-thumbnails');
+
+function pragmatic_widget_setup(){
+    register_sidebar(array(
+        'name' => "Sidebard",
+        'id'=>'sidebar-1',
+        'class' => 'custom',
+        'description' => 'Standard Sidebar',
+        'before_widget' => '<aside="%1$s" class="widget %2$s">',
+        'after_widget' => '</asidee>',
+        'before_title' => '<h1 class="widget-title">',
+        "after_tile" => '</h1>',
+    ));
+}
+
+add_action('widgets_init','pragmatic_widget_setup');

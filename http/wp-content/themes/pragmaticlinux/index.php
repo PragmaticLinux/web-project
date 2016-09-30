@@ -116,6 +116,12 @@ get_template_directory_uri();
 </div>
 
 
-
+<div class="col-md-12">
+    <div class=" col-md-offset-4 col-md-4">
+        <div class="text-center">
+            <?php get_sidebar(); ?>
+        </div>
+    </div>
+</div>
 <?php get_footer(); ?>
 
