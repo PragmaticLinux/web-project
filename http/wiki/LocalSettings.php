@@ -128,6 +128,9 @@ wfLoadSkin('MonoBook');
 wfLoadSkin('Vector');
 
 
+# Disable anonymous editing
+$wgGroupPermissions['*']['edit'] = false;
+
 
 #Tree Config
 $wgCategoryTreeMaxDepth = array(CT_MODE_PAGES => 2,
