@@ -1,13 +1,16 @@
 <?php
 
 /*
+ * =========================================
  * Call Javascript and CSS files
+ * =========================================
  */
 
 function pragmaticlinux_script_enqueue() {
     $baseDir = get_template_directory_uri() . "/assets/";
     wp_enqueue_style('bootstrap-style', $baseDir . "css/bootstrap.min.css", array(), "1.0.0", "all");
     wp_enqueue_style('pragmaticlinux-style', $baseDir . "css/pragmaticlinux.css", array(), "1.0.0", "all");
+    wp_enqueue_style('fontawesome-style', $baseDir . "css/font-awesome.min.css", array(), "4.6.3", "all");
     wp_enqueue_script('jquery-js', $baseDir . "js/jquery.1.12.4.min.js", array(), 1.0, false);
     wp_enqueue_script('bootstrap-js', $baseDir . "js/bootstrap.min.js", array(), NULL, false);
 }

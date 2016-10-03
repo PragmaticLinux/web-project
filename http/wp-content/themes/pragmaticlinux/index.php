@@ -1,10 +1,10 @@
 <?php get_header(); ?>
-<div class="col-md-12 front-image-pragmatic img-responsive" style=" min-height:570px; background:url('<?php
+<div class="col-md-12 col-sm-12 front-image-pragmatic img-responsive" style=" min-height:570px; background:url('<?php
 echo
 get_template_directory_uri();
 ?>/assets/img/homewallpaper.png') center no-repeat #000000; background-size:cover;">
 </div>
-<div class="col-md-12 nopadding" >
+<div class="col-md-12 col-sm-12 nopadding" >
     <?php
     // Get Post Left block
     $args = array('category_name' => 'left-block');
@@ -13,7 +13,7 @@ get_template_directory_uri();
         while ($the_query->have_posts()) {
             $the_query->the_post();
             ?>
-            <div class="col-md-6 left-block">
+            <div class="col-sm-6 left-block">
                 <h2 class="text-center"><?php the_title(); ?></h2>
                 <p class="text-justify pharagraph"><br>
                     <?php echo $the_query->posts[0]->post_content; ?>
@@ -31,7 +31,7 @@ get_template_directory_uri();
         while ($the_query->have_posts()) {
             $the_query->the_post();
             ?>
-            <div class="col-md-6 right-block">
+            <div class="col-sm-6 right-block">
                 <h2 class="text-center"><?php the_title(); ?></h2>
                 <p class="text-justify pharagraph"><br>
                     <?php echo $the_query->posts[0]->post_content; ?>
@@ -43,7 +43,7 @@ get_template_directory_uri();
     ?>
 </div>
 
-<div class="col-md-12">
+<div class="col-md-12 col-sm-12">
     <div class="container">
         <br>
         <?php
@@ -55,7 +55,7 @@ get_template_directory_uri();
             while ($the_query->have_posts()) {
                 $the_query->the_post();
                 ?>
-                <div class="col-md-3 text-center feature-list">
+                <div class="col-md-3 col-sm-3 text-center feature-list">
                     <?php the_post_thumbnail('thumbnail'); ?>
                     <a href="<?php $latestFeatureLink = the_permalink(); ?>"><h2 style="font-weight: 600;"><?php the_title(); ?></h2></a>
                     <?php the_excerpt(); ?>
@@ -65,7 +65,7 @@ get_template_directory_uri();
         }
         ?>
 
-        <div class="col-md-12 text-center" style="padding-bottom:40px;">
+        <div class="col-md-12 col-sm-12 text-center" style="padding-bottom:40px;">
             <a href="/features/web-development/" class="btn btn-primary" style="margin-top:20px;" >
                 <show class="normal" >MORE FEATURES </show>
                 <onhover class="onhover">MORE FEATURES  ></onhover>
@@ -73,28 +73,28 @@ get_template_directory_uri();
         </div>
     </div>
 </div>
-<div class="col-md-6 nopadding screenshoot-index">
+<div class="col-md-6 col-sm-6 nopadding screenshoot-index">
     <img class="img-responsive" style="height: 430px;  width: 100%;" src="<?php echo get_template_directory_uri(); ?>/assets/img/normalUser.png">
 </div>
-<div class="col-md-6 nopadding screenshoot-index">
+<div class="col-md-6 col-sm-6 nopadding screenshoot-index">
     <img class="img-responsive" style="height: 430px; width: 100%;"  src="<?php echo get_template_directory_uri(); ?>/assets/img/normalUserSkype.png">  
 </div>
-<div class="col-md-3 nopadding screenshoot-index"> 
+<div class="col-md-3 col-sm-3 nopadding screenshoot-index"> 
     <img class="img-responsive" style="height: 230px; width: 100%; "  src="<?php echo get_template_directory_uri(); ?>/assets/img/dualScreen.png">        
 </div>
-<div class="col-md-3 nopadding screenshoot-index">
+<div class="col-md-3 col-sm-3 nopadding screenshoot-index">
     <img class="img-responsive" style="height: 230px; width: 100%; "  src="<?php echo get_template_directory_uri(); ?>/assets/img/desktop.png">        
 </div>
-<div class="col-md-3 nopadding screenshoot-index">
+<div class="col-md-3 col-sm-3 nopadding screenshoot-index">
     <img class="img-responsive" style="height: 230px; width: 100%; "  src="<?php echo get_template_directory_uri(); ?>/assets/img/BootScreen.png">        
 </div>
-<div class="col-md-3 nopadding screenshoot-index">
+<div class="col-md-3 col-sm-3 nopadding screenshoot-index">
     <img class="img-responsive" style="height: 230px; width: 100%; "   src="<?php echo get_template_directory_uri(); ?>/assets/img/FileManager.png">        
 </div>
-<div class="col-md-12 text-center">
+<div class="col-md-12 col-sm-12 text-center">
     <h2 class="header-block">Who is using Pragmatic Linux Server & Pragmatic Linux</h2>
 </div>
-<div class="col-md-12 text-center" style="padding-bottom: 70px;">
+<div class="col-md-12 col-sm-12 text-center" style="padding-bottom: 70px;">
     <div class="container">
         <?php
         // Get Feature lists
@@ -104,7 +104,7 @@ get_template_directory_uri();
             while ($the_query->have_posts()) {
                 $the_query->the_post();
                 ?>
-                <div class="col-md-2 text-center" style="padding-top:15px; padding-bottom: 15px; ">
+                <div class="col-md-2 col-sm-2 text-center" style="padding-top:15px; padding-bottom: 15px; ">
                     <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-responsive" >
 
                 </div>
@@ -116,8 +116,8 @@ get_template_directory_uri();
 </div>
 
 
-<div class="col-md-12">
-    <div class=" col-md-offset-4 col-md-4">
+<div class="col-md-12 col-sm-12">
+    <div class=" col-md-offset-4 col-md-4 col-sm-4 col-sm-offset-4">
         <div class="text-center">
             <?php get_sidebar(); ?>
         </div>

@@ -95,7 +95,6 @@ class VectorTemplate extends BaseTemplate {
 		$this->html( 'headelement' );
 		?>
 
-
 <nav class="navbar navbar-default" style="height:85px;">
             <div class="container-fluid">
                 <div class="col-md-12">
@@ -108,7 +107,8 @@ class VectorTemplate extends BaseTemplate {
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="http://192.168.0.104:8080"><img src="http://pragmaticlinux.org/AlbanMulaki/PragmaticLinux/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " style="max-height:85px;margin-left:10%;"></a>
+                            <a href="<?php echo $this->data['serverurl']; ?>/"><img src="<?php echo $this->data['serverurl']; ?>/pragmaticlinux/resource/images/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " 
+style="max-height:85px;margin-left:10%;"></a>
                         </div>
 
                     </div>
@@ -116,39 +116,36 @@ class VectorTemplate extends BaseTemplate {
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse " style="float: right;  margin-right: 5%;">
 
-                            <div id="menu-navigation" class="menu-pragmatic-linux-container"><ul id="menu-pragmatic-linux" class="nav navbar-nav"><li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5"><a href="http://dev.pragmaticlinux:8080/">About</a>
+                            <div id="menu-navigation" class="menu-pragmatic-linux-container"><ul id="menu-pragmatic-linux" class="nav navbar-nav"><li id="menu-item-5" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children 
+menu-item-5"><a href="#">About
+</a>
 <ul class="sub-menu">
-	<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-features menu-item-173"><a href="http://192.168.0.104:8080/features/web-development/">Features</a></li>
-	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="http://192.168.0.104:8080/screenshot/">Screenshot</a></li>
-	<li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-video menu-item-96"><a href="http://192.168.0.104:8080/video/01-how-to-install-pragmatic-linux-server-env/">Video</a></li>
-	<li id="menu-item-59" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59"><a href="http://192.168.0.104:8080/category/release/">History</a></li>
-	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="http://192.168.0.104:8080/frequently-ask-and-question-faq/">FAQ</a></li>
-	<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="http://192.168.0.104:8080/requirements/">Hardware Requirements</a></li>
+	<li id="menu-item-173" class="menu-item menu-item-type-post_type menu-item-object-features menu-item-173"><a href="<?php echo $this->data['serverurl']; ?>/features/web-development/">Features</a></li>
+	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="<?php echo $this->data['serverurl']; ?>/screenshot/">Screenshot</a></li>
+	<li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-video menu-item-96"><a href="<?php echo $this->data['serverurl']; ?>/video/01-how-to-install-pragmatic-linux-server-env/">Video</a></li>
+	<li id="menu-item-59" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59"><a href="<?php echo $this->data['serverurl']; ?>/category/release/">History</a></li>
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="<?php echo $this->data['serverurl']; ?>/frequently-ask-and-question-faq/">FAQ</a></li>
+	<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="<?php echo $this->data['serverurl']; ?>/hardware-requirements/">Hardware Requirements</a></li>
 </ul>
 </li>
-<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="http://192.168.0.104:8080/for-business/">For Business</a></li>
-<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="http://192.168.0.104:8080/news/">News</a></li>
+<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="<?php echo $this->data['serverurl']; ?>/for-business/">For Business</a></li>
+<li id="menu-item-73" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73"><a href="<?php echo $this->data['serverurl']; ?>/news/">News</a></li>
 <li id="menu-item-15" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-15"><a href="#">Community</a>
 <ul class="sub-menu">
-	<li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="/forums">Forum</a></li>
-	<li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="https://github.com/PragmaticLinux/PragmaticLinux-Server/issues">Report Bug</a></li>
-	<li id="menu-item-113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="/team/">Team</a></li>
-	<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="http://192.168.0.104:8080/pragmaticlinux-logos-and-artwork/">Logos and Artwork</a></li>
+	<li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="<?php echo $this->data['serverurl']; ?>/forums">Forum</a></li>
+	<li id="menu-item-80" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="https://github.com/PragmaticLinux">Report Bug</a></li>
+	<li id="menu-item-113" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-113"><a href="<?php echo $this->data['serverurl']; ?>/team/">Team</a></li>
+	<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="<?php echo $this->data['serverurl']; ?>/pragmaticlinux-logos-and-artwork/">Logos and Artwork</a></li>
 </ul>
 </li>
-<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="#">Wiki</a></li>
-<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="http://192.168.0.104:8080/get-help/">Get Help</a></li>
-<li class="download-button"><a href="#" class="btn btn-primary">DOWNLOAD</a></li> </ul>                        </div><!-- /.navbar-collapse -->
+<li id="menu-item-16" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16"><a href="<?php echo $this->data['serverurl']; ?>/wiki/">Wiki</a></li>
+<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="<?php echo $this->data['serverurl']; ?>/get-help/">Get Help</a></li>
+<li class="download-button"><a href="<?php echo $this->data['serverurl']; ?>/download" class="btn btn-primary">DOWNLOAD</a></li> </ul>                        </div><!-- /.navbar-collapse -->
 
                     </div>
                 </div>
             </div><!-- /.container-fluid -->
         </div></nav>
-
-
-
-
-
 
 
 

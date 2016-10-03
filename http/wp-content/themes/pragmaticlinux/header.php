@@ -3,11 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Pragmatic Linux - Web Development</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--        <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1"> -->
         <?php wp_head(); ?>
-        <script 
-        src="https://use.fontawesome.com/20bd2b85aa.js"></script>
     </head>
 
     <body>
@@ -23,7 +21,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="<?php echo home_url(); ?>"><img src="http://pragmaticlinux.org/AlbanMulaki/PragmaticLinux/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " style='max-height:85px;margin-left:10%;' /></a>
+                            <a href="<?php echo home_url(); ?>"><img src="/pragmaticlinux/resource/images/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " style='max-height:85px;margin-left:10%;' alt="<?php echo wp_title();?>" /></a>
                         </div>
 
                     </div>
