@@ -94,7 +94,7 @@ get_template_directory_uri();
 <div class="col-md-12 col-sm-12 text-center">
     <h2 class="header-block">Who is using Pragmatic Linux Server & Pragmatic Linux</h2>
 </div>
-<div class="col-md-12 col-sm-12 text-center" style="padding-bottom: 70px;">
+<div class="col-md-12 col-sm-12 text-center" style="padding-bottom: 40px;">
     <div class="container">
         <?php
         // Get Feature lists
