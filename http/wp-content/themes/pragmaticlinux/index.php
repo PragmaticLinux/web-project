@@ -105,7 +105,8 @@ get_template_directory_uri();
                 $the_query->the_post();
                 ?>
                 <div class="col-md-2 col-sm-2 text-center" style="padding-top:15px; padding-bottom: 15px; ">
-                    <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" class="img-responsive" >
+                    <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>" title="<?php the_title(); ?>" 
+class="img-responsive" >
 
                 </div>
                 <?php

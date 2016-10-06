@@ -10,10 +10,11 @@
     </div>
     <div class="col-md-12 col-sm-12">
         <hr>
-        <a href="https://web.facebook.com/PragmaticLinux/" class="facebook-link"> <img src="<?php 
+        <a href="https://web.facebook.com/PragmaticLinux/" class="facebook-link" target="_blank"> <img src="<?php 
 echo get_template_directory_uri(); ?>/assets/img/facebook-icon.png" 
 /></a>
-        <a href="https://www.youtube.com/channel/UCNYn9kRHEdKHZSvYZ5aBkaQ"  class="youtube-link"> <img src="<?php echo get_template_directory_uri(); 
+        <a href="https://www.youtube.com/channel/UCNYn9kRHEdKHZSvYZ5aBkaQ"  class="youtube-link" target="_blank"> <img src="<?php 
+echo get_template_directory_uri(); 
 ?>/assets/img/youtube-icon.png" height="29" /></a>
     </div>
 </div>
