@@ -70,21 +70,23 @@ with Pragmatic Linux. This documentation is filled with rich and detailed conten
                 <a href="#">
                     <i class="fa fa-puzzle-piece fa-4x"></i><br><br>
                     <h4 style="font-weight:bold;">Get Involved</h4>
+                </a>
                     <p>
 If you want to get involved with Pragmatic Linux and be a part of our team and community, please contact us at: <a 
 href="mailto:getinvolved@pragmaticlinux.org" >getinvolved@pragmaticlinux.org</a>
                     </p>
-                </a>
+                
             </div>
             <div class="col-md-3 text-center get-help" >
                 <a href="#">
                     <i class="fa fa-share-alt fa-4x"></i><br><br>
                     <h4>Collaborate</h4>
+                </a>
                     <p>
 If you are interested in collaborating with us, by working in various projects together, be part of the Software Development team, or become a 
 Sysadmin, please contact us at: <a href="mailto:info@pragmaticlinux.org">info@pragmaticlinux.org</a> 
                     </p>
-                </a>
+                
             </div>
             <div class="col-md-3 text-center get-help" >
                 <a href="#">
