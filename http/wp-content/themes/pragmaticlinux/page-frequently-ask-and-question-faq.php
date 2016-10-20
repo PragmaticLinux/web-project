@@ -142,7 +142,7 @@ Thus, by making better use of these resources, Pragmatic Linux becomes a more re
                                 <tr>
                                     <td class=" faqs-title">
                                         <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq6" aria-expanded="true" aria-controls="collapseOne">
-                                            What are the hardware requirments for pragmatic linux ?
+                                            What are the hardware requirements for Pragmatic Linux?
                                         </a>
                                     </td>
                                     <td style="width: 50px;">
@@ -167,7 +167,7 @@ The hardware requirements depend strongly on the reasons you plan to use Pragmat
                                 <tr>
                                     <td class=" faqs-title">
                                         <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq7" aria-expanded="true" aria-controls="collapseOne">
-                                            Where i can get Help ?
+                                            Where I can get Help?
                                         </a>
                                     </td>
                                     <td style="width: 50px;">
