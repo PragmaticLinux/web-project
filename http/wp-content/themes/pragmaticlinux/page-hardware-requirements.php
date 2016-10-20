@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div class="row header-page text-center">
-    <h1>Hardware Requirments</h1> 
+    <h1><?php echo the_title(); ?></h1> 
 </div>
 <div class="row">
     <div class="container">

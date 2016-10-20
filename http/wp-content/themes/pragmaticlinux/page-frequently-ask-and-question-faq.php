@@ -116,7 +116,7 @@ Pragmatic Linux enables the installation of third party software just like Arch 
                                 <tr>
                                     <td class=" faqs-title">
                                         <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq5" aria-expanded="true" aria-controls="collapseOne">
-                                            Why Pragmatic Linux is only 64 Bit ?
+                                            Why Pragmatic Linux is only 64 Bit?
                                         </a>
                                     </td>
                                     <td style="width: 50px;">
