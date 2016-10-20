@@ -28,7 +28,8 @@
                     </div>
                     <div id="faq1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                            Dedicated to software developer, designed for developer, system administrator, offers huge of tools, many services, ready environment.
+Pragmatic Linux is a Linux distribution dedicated and designed for Software Developers and System Administrators. It comes with a ready environment 
+and also offers a lot of great tools and services.
                         </div>
                     </div>
                 </div>
@@ -39,7 +40,7 @@
                                 <tr>
                                     <td class="faqs-title">
                                         <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq2" aria-expanded="true" aria-controls="collapseOne">
-                                            Where i can use it?
+Where can I use it?
                                         </a>
                                     </td>
                                     <td style="width: 50px;">
@@ -53,8 +54,8 @@
                     </div>
                     <div id="faq2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-
-                            In business, Home, Self, Development Software, Server, System Administration, Git Server, FTP Server, SSH Server,Database, Virtual Boxford
+Pragmatic Linux can be used for business or personal purposes, such as for Software development, as Server software, for System administration and Database administration. These purposes can be achieved with the help of various pre-installed tools and services like 
+Git Server, FTP Server, SSH Server, VirtualBox and many more.
                         </div>
                     </div>
                 </div>
@@ -65,7 +66,7 @@
                                 <tr>
                                     <td class=" faqs-title">
                                         <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq3" aria-expanded="true" aria-controls="collapseOne">
-                                            Why would i use Pragmatic Linux ?
+Why should I use Pragmatic Linux?
                                         </a>
                                     </td>
                                     <td style="width: 50px;">
@@ -79,8 +80,7 @@
                     </div>
                     <div id="faq3" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-
-                            Benefit,Many projects can be managed,Easy of use, Easy maintenance, acces via intrantet, collaborate with team, git server, client, public server, Web Hosting
+Pragmatic Linux offers a lot of benefits, such as: the ability to manage many projects, ease of use, easy maintenance, team collaboration features, the Git server, usability as a client or a public server, Web Hosting and other great features.
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                                 <tr>
                                     <td class=" faqs-title">
                                         <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq4" aria-expanded="true" aria-controls="collapseOne">
-                                            What else can i do with Pragmatic Linux ?
+What else can I do with Pragmatic Linux?
                                         </a>
                                     </td>
                                     <td style="width: 50px;">
@@ -105,8 +105,7 @@
                     </div>
                     <div id="faq4" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-
-                            Pragmatic Linux offers same also third party from Arch Linux.
+Pragmatic Linux enables the installation of third party software just like Arch Linux.
                         </div>
                     </div>
                 </div>
@@ -131,7 +130,8 @@
                     </div>
                     <div id="faq5" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                            Requires 64 bit Process,Memory not support by 32 Bit, Accept more memory, offers better resources.
+Pragmatic Linux requires 64 bit processes and is able to support TeraBytes of RAM.
+Thus, by making better use of these resources, Pragmatic Linux becomes a more reliable system.
                         </div>
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                     </div>
                     <div id="faq6" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                            Depends very strongly on what you plan, dedicated page for hardware, plan to use.
+The hardware requirements depend strongly on the reasons you plan to use Pragmatic Linux. All requirements can be found <a href="<?php echo home_url(); ?>/hardware-requirements">here</a>.
                         </div>
                     </div>
                 </div>
@@ -166,12 +166,12 @@
                             <table class="table-condensed" style="width: 100%;">
                                 <tr>
                                     <td class=" faqs-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq6" aria-expanded="true" aria-controls="collapseOne">
+                                        <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq7" aria-expanded="true" aria-controls="collapseOne">
                                             Where i can get Help ?
                                         </a>
                                     </td>
                                     <td style="width: 50px;">
-                                        <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq6" aria-expanded="true" aria-controls="collapseOne" style=" margin-left: 30px;  color:#a7a7a7;">
+                                        <a role="button" data-toggle="collapse" data-parent="#faqs" href="#faq7" aria-expanded="true" aria-controls="collapseOne" style=" margin-left: 30px;  color:#a7a7a7;">
                                             <i class="fa fa-plus-square-o fa-lg"></i>
                                         </a>
                                     </td>
@@ -179,9 +179,11 @@
                             </table>
                         </div>
                     </div>
-                    <div id="faq6" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
+                    <div id="faq7" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
-                            Forum,Wiki,Documentation,youtube channel
+Our official documentation can be found in our <a href="<?php echo home_url(); ?>/wiki">Wiki pages</a>. Other helpful resources include the <a href="<?php echo home_url(); ?>/forums">Community Forum</a> or our official <a href="<?php echo home_url(); 
+?>/video/01*">YouTube 
+channel</a>. 
                         </div>
                     </div>
                 </div>
