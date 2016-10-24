@@ -21,7 +21,7 @@ questions, respond to questions, share documentation, communicate with each othe
                 </a>
             </div>
             <div class="col-md-3 text-center get-help" >
-                <a href="<?php echo home_url(); ?>/frequently-ask-and-question-faq/">
+                <a href="<?php echo home_url(); ?>/frequently-asked-questions-faq/">
                     <i class="fa fa-question-circle-o fa-4x"></i><br><br>
                     <h4 style="font-weight:bold;">Pragmatic Linux FAQs</h4>
                     <p>
