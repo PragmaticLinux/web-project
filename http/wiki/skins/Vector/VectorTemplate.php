@@ -124,8 +124,9 @@ menu-item-5"><a href="#">About
 	<li id="menu-item-52" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-52"><a href="<?php echo $this->data['serverurl']; ?>/screenshot/">Screenshot</a></li>
 	<li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-video menu-item-96"><a href="<?php echo $this->data['serverurl']; ?>/video/01-how-to-install-pragmatic-linux-server-env/">Video</a></li>
 	<li id="menu-item-59" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-59"><a href="<?php echo $this->data['serverurl']; ?>/category/release/">History</a></li>
-	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="<?php echo $this->data['serverurl']; ?>/frequently-ask-and-question-faq/">FAQ</a></li>
+	<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a href="<?php echo $this->data['serverurl']; ?>/frequently-ask-and-questions-faq/">FAQ</a></li>
 	<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="<?php echo $this->data['serverurl']; ?>/hardware-requirements/">Hardware Requirements</a></li>
+	<li id="menu-item-94" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-94"><a href="<?php echo $this->data['serverurl']; ?>/donate/">Donate</a></li>
 </ul>
 </li>
 <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="<?php echo $this->data['serverurl']; ?>/for-business/">For Business</a></li>

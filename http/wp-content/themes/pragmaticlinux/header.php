@@ -22,7 +22,7 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                             </button>
-                            <a href="<?php echo home_url(); ?>"><img src="/pragmaticlinux/resource/images/logo/PragramaticLinuxLogoInvert.png" class="img-responsive " style='max-height:85px;margin-left:10%;' alt="<?php echo wp_title();?>" /></a>
+                            <a href="<?php echo home_url(); ?>"><img src="/pragmaticlinux/resource/images/logo/PragmaticLinuxLogoInvert.png" class="img-responsive " style='max-height:85px;margin-left:10%;' alt="<?php echo wp_title();?>" /></a>
                         </div>
 
                     </div>

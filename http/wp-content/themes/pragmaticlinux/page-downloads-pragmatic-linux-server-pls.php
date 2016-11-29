@@ -12,7 +12,7 @@
 
         <div class="col-md-12">
             <div class="text-center" style="padding-top:22px;padding-bottom:22px;">
-                <a href="<?php echo get_home_url();?>/?smd_process_download=1&download_id=185" class="btn btn-primary btn-lg text-uppercase" >Download</a>
+                <a href="<?php echo get_home_url();?>/?smd_process_download=1&download_id=294" class="btn btn-primary btn-lg text-uppercase" >Download</a>
             </div>
             <p>
                 PLS offers minimal usage of the Memory, CPU and Disk space, and is designed for helping System Administrators in building network infrastructures. 
@@ -31,7 +31,7 @@
                     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                         <div class="panel-body">
                             <p>Pragmatic Linux Server (PLS) is a special version of Pragmatic Linux dedicated for server use. PLS offers minimal usage of the Memory, CPU and Disk space, and is designed for helping System Administrators in building network infrastructures. PLS offers many helpful features: usage as a standalone system via VirtualBox, possibility to act like a Web server, compatibility with every OS (MAC, Windows, Linux) with VirtualBox installed, ability to start many instances of a server, it can be used in one Real Machine, it offers many services (Apache, MySQL, PHP, FTP, SSH, SMB Share, Webmin Administration Panel Web Interface, phpMyAdmin, etc.), possibility for Port Forwarding, a pre-configured environment and Hostname.
-<!--
+
                                 <br><br>
                                 <b>Note: </b> These list below are older version if you want the latest version Click on Download Button.
                             <table class="table-condensed table-hover" style="background:#f9f9f9; width: 100%;">
@@ -42,12 +42,18 @@
                                     <th>Date Published:</th>
                                 </tr>
                                 <tr>
-                                    <td><a href="#"> <i class="fa fa-file-code-o"></i>  PragmaticLinuxServer(PLS)v1.0.ova</a></td>
+                                    <td><a href="<?php echo get_home_url();?>/?smd_process_download=1&download_id=294"> <i class="fa fa-file-code-o"></i>  PragmaticLinuxServer(PLS)v1.1.ova</a></td>
+                                    <td>1 GB </td>
+                                    <td><i class="fa fa-code-fork"></i> 1.1v</td>
+                                    <td><i class="fa fa-clock-o"></i> 26.10.2016</td>
+                                </tr>
+                                <tr>
+                                    <td><a href="<?php echo get_home_url();?>/?smd_process_download=1&download_id=185"> <i class="fa fa-file-code-o"></i>  PragmaticLinuxServer(PLS)v1.0.ova</a></td>
                                     <td>900 MB</td>
                                     <td><i class="fa fa-code-fork"></i> 1.0v</td>
                                     <td><i class="fa fa-clock-o"></i> 22.06.2016</td>
                                 </tr>
-                            </table> -->
+                            </table> 
                             <br>
                             </p>
                         </div>

@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteRule ^/?index.php/wiki(/.*)?$ %{DOCUMENT_ROOT}/wiki/index.php [L]
-RewriteRule ^/?$ %{DOCUMENT_ROOT}/wiki/index.php [L]
+RewriteRule ^/$ %{DOCUMENT_ROOT}/wiki/index.php [L]
 
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
 RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-d
